@@ -1,1 +1,1 @@
-# Laboratorio-1-Procesamiento-de-se-ales
+# Laboratorio-1-Procesamiento-de-senales
