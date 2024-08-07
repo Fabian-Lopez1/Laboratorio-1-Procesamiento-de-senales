@@ -1,2 +1,3 @@
-# Laboratorio 1 Procesamiento de señales
-sdadasda
+# Laboratorio 1 Procesamiento  Digital de Señales: Análisis estadístico de la señal 
+
+
