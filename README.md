@@ -1,2 +1,2 @@
-# Laboratorio-1-Procesamiento-de-senales
+# Laboratorio 1 Procesamiento de señales
 sdadasda
