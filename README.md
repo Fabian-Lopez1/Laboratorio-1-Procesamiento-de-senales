@@ -97,6 +97,7 @@ El ruido tipo artefacto es un ruido no deseado en una señal que se origina por 
 ![impulso](https://drive.google.com/uc?export=view&id=1CTO9oftJyyHk6YvR-k4NEci5NUXMdHsO)
 
 # Instrucciones para el usuario 
+Para evitar problemas se le recomienda al usuario usar la version 3.10 de python y no modificar nada de lo que no se mensione en los siguientes pasos, ya que el codigo generara las demas cosas de manera automatica. ademas se recomienda usar datos de una dimension o un vector (si no se tienen de esa forma convertirlos a un solo vector)
 
 1. importar las siguientes librerias luego de instalarlas previamente
    
@@ -144,6 +145,14 @@ impulse_probability = "probabilidad de que un impulso ocurra sin comillas"
 ```python
 ruido = np.random.normal(0, "valor de desviacion estandar que se desea sin comillas", tamaño)  
 ```
+### Uso 
+Por favor, cite este artículo:
+<br>
+Goldberger, A., Amaral, L., Glass, L., Hausdorff, J., Ivanov, P. C., Mark, R., ... & Stanley, H. E. (2000). PhysioBank, PhysioToolkit, and PhysioNet: Components of a new research resource for complex physiologic signals. Circulation [Online]. 101 (23), pp. e215–e220
+### Informacion de contacto
+est.fabiana.lopez@unimilitar.edu.co
+<br>
+est.tania.sandoval@unimilitar.edu.co
    
 
 
