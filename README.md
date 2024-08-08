@@ -82,6 +82,16 @@ El histograma y la funcion de probabilidad estan interconectados, por eso se dec
 <br>
 ![Histograma](https://drive.google.com/uc?export=view&id=1gH-x2WzdD5oh5uOKuq1KVC9wJTtaKf6D) ![Funcion de probabilidad](https://drive.google.com/uc?export=view&id=1m2sgsltka0-iiEm1dLqA9y7J9f3RD_0r)
 
+## Relacion señal ruido (SNR)
+La Relacion señal ruido  es la relación entre la potencia de una señal útil y la potencia del ruido de fondo. Se utiliza para medir la calidad de la señal; un SNR más alto indica una señal más clara y menos afectada por el ruido; se utiliza la siguiente formula:
+<br>
+![SNR](https://quicklatex.com/cache3/2f/ql_51d12e518023d4d41be035e9f8e68f2f_l3.png)
+
+### Ruido gaussiano 
+El ruido gaussiano es un tipo de ruido que tiene una distribución de probabilidad normal (gaussiana), caracterizada por su media y desviación estándar; debido a esto dependiendo de ciertop valor que sera mencionado despues, los valores de SNR cambian dependiendo de cuanta desviacion estandar se le coloque a la ecuacion, los resultados obtenidos fueron: 
+<br>
+![Histograma](https://drive.google.com/uc?export=view&id=1u_d80iu7hoWgUX9MyelIKhjqLDqPwqK6) ![Funcion de probabilidad](https://drive.google.com/uc?export=view&id=1dRuoYXGvYfdgrtF0axQyYVFrbrICOPhz)
+
 
 
 
