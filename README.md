@@ -113,7 +113,7 @@ from scipy.stats import variation
 signal = wfdb.rdrecord('nombre_de_sus_archivos')
 ```
 4. una vez teniendo esto se obtienen automaticamente las siguientes cosas: los valores de la señal, la longitud(o tamaño) del arreglo, se muestra la grafica de sus datos, La media, la desviacion estandar y el coeficiente de variacion.
-5. para el histograma y la funcion de probabilidad se usa algo llamado "bins", que se podria decir que son los intervalos en los que se agrupan los datos, a menor numero de bins menor numero de barrras y visceversa, estos se modifican en la linea 84, 104 y 138; donde se muestra:
+5. para el histograma y la funcion de probabilidad se usa algo llamado "bins", que se podria decir que son los intervalos en los que se agrupan los datos, a menor numero de bins menor numero de barrras y visceversa, estos se modifican en la linea 84, 104 y 138; donde se muestra(**_del usuario depende cuantos bins colocar en cada uno de estos, ya que dependera de la señal utilizada_**):
 ```python
 #histograma por formula(linea 84)
 num_bins = "numero deseado de bins sin comillas"
@@ -124,8 +124,6 @@ plt.hist(valores, bins="numero deseado de bins sin comillas")
 #funcion de probabilidad por codigo(linea 138)
 count, bins = np.histogram(valores, bins="numero deseado de bins sin comillas", density=True)
 ```
-del usuario depende cuantos bins colocar en cada uno de estos, ya que dependera de la señal utilizada
-<br>
 6. Para la parte de los ruidos, el valor de SNR depende de la variacion estandar que se le quiera permitir a la señal del ruido, ya que esta se normaliza o estandariZa de forma automatica
    1. Para el ruido gaussiano (linea 162)
  ```python
