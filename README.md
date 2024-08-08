@@ -127,9 +127,21 @@ count, bins = np.histogram(valores, bins="numero deseado de bins sin comillas", 
 6. Para la parte de los ruidos, el valor de SNR depende de la variacion estandar que se le quiera permitir a la señal del ruido, ya que esta se normaliza o estandariZa de forma automatica
    1. Para el ruido gaussiano (linea 162)
  ```python
-noise_level = np.std(valores)*"valor de desviacion estandar que se desea"
+noise_level = np.std(valores)*"valor de desviacion estandar que se desea sin comillas"
 ```
-   
+   2. para el ruido impulso se debe poner el nivel del ruido que se desea y la probabilidad que ocurra un impulso(linea 235 y linea 249/251)
+```python
+#linea 235
+def add_impulse_noise(signal, noise_level="nivel de ruido deseado sin comillas", impulse_probability="probabilidad de que un impulso ocurra sin comillas"):
+#lineas 249 y 251
+noise_level = "nivel de ruido deseado sin comillas"
+
+impulse_probability = "probabilidad de que un impulso ocurra sin comillas"
+```
+   3. para ruido artefacto tambien se modifica la desviacion estandar, que es com un tipo de tolerancia que tiene la onda para producir el ruido (linea 313)
+```python
+ruido = np.random.normal(0, "valor de desviacion estandar que se desea sin comillas", tamaño)  
+```
    
 
 
