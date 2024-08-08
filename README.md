@@ -16,14 +16,11 @@ tamaño = signal.sig_len
 ```
 <br>
 Una vez obtenida la señal era momento de mostrarla para poder observar lo que se denomino "señal original", esto se hizo usando la libreria "matplotlib" obteniendo la siguiente señal: 
-
-![Senal original](https://drive.google.com/uc?export=view&id=1Nq-gbisaOD_8Kpf-NBYKOK_pXGg7xiUb)
-
 <br>
+![Senal original](https://drive.google.com/uc?export=view&id=1Nq-gbisaOD_8Kpf-NBYKOK_pXGg7xiUb)
 
 Una vez se confirmo que la señal se importo de manera correcta a python, se procedio con la primera parte del laboratorio la cual se basa en el estudio estadistico de la señal, en el cual se realizan diferentes medidas estadisticas tanto por formula como por comando de librerias de python; para esta parte es crucial importar las siguientes librerias: matplotlib, numpy, math y scipy
 
-<br>
 
 ### Media estadistica
 Como su nombre lo dicta es el valor promedio en el que se mantiene la señal(en este caso en unidades de la escala de Voltios), para la parte con formula se uso la siguiente formula y se implemento en el codigo de la siguiente manera:
