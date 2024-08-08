@@ -41,8 +41,9 @@ from scipy.stats import variation
 Como su nombre lo dicta es el valor promedio en el que se mantiene la señal, para la parte con formula se uso la siguiente formula y se implemento en el codigo de la siguiente manera:
 <br>
 $$
-media = \frac{\sum_{1}^{n}x_{i}}{n}
+\text{media} = \frac{\sum_{i=1}^{n} x_{i}}{n}
 $$
+
 
 ```python
 sumita = sum(valores)
