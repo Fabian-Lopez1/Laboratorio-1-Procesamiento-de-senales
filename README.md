@@ -124,8 +124,8 @@ plt.hist(valores, bins="numero deseado de bins sin comillas")
 #funcion de probabilidad por codigo(linea 138)
 count, bins = np.histogram(valores, bins="numero deseado de bins sin comillas", density=True)
 ```
-<br> 
 del usuario depende cuantos bins colocar en cada uno de estos, ya que dependera de la señal utilizada
+6. 
    
 
 
