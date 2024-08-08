@@ -42,16 +42,6 @@ Como su nombre lo dicta es el valor promedio en el que se mantiene la señal, pa
 <br>
 ![media](https://quicklatex.com/cache3/e9/ql_529238be61b9b711ea08fd55cd745ee9_l3.png)
 
-
-```python
-sumita = sum(valores)
-media_formula = sumita/tamaño
-print("La media por formula de la señal es:", media_formula)
-```
-<br>
-
-Por comando se uso el siguiente codigo: 
-
 ```python
 media = np.mean(valores)
 print("La media de la señal es:", media)
@@ -64,16 +54,6 @@ En ambos casos se obtuvo un valor de **0.00102** aprocimadamente
 La desviacion estandar, indica la dispersion la dispersion o variacion del conjunto de datos que se tiene, para encontrarla se utiliza la siguiente formula y se implemento por codigo asi: 
 <br>
 ![Desviacion estandar](https://quicklatex.com/cache3/c9/ql_35e276e65637c4608038eba6cea6e8c9_l3.png)
-
-```python
-suma_de_cuadrados = sum((x - media_formula)**2 for x in valores)
-varianza = suma_de_cuadrados/(tamaño-1)
-desviacion_estandar_formula = math.sqrt(varianza)
-print("La desviacion estandar por formula de la señal es:", desviacion_estandar_formula)
-```
-<br>
-
-Por comando se uso el siguiente codigo: 
 
 ```python
 desviacion_estandar = np.std(valores)
