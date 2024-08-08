@@ -79,6 +79,7 @@ En ambos casos se obtuvo un valor de **435.4675** aproximadamente
 <br>
 ### Histograma y Funcion de probabilidad
 El histograma y la funcion de probabilidad estan interconectados, por eso se decidio unir los resultados en una sola parte. Estos se realizaron por formula, sin embargo es mas simple para el usuario mostrar los resultados obtenidos, ya que en el codigo se encuentra indicado en que parte se hacen las modificaciones a los mismos: 
+<br>
 ![Histograma](https://drive.google.com/uc?export=view&id=1gH-x2WzdD5oh5uOKuq1KVC9wJTtaKf6D) ![Funcion de probabilidad](https://drive.google.com/uc?export=view&id=1m2sgsltka0-iiEm1dLqA9y7J9f3RD_0r)
 
 
