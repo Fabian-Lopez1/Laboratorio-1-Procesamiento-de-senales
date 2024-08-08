@@ -2,7 +2,7 @@
 """
 Created on Thu Jul 25 15:29:12 2024
 
-@author: Estudiante
+@author: Tania Sandoval y Fabian Lopez
 """
 #importar paquete wfdb para leer "records" de physionet
 
