@@ -79,7 +79,7 @@ La Relacion señal ruido  es la relación entre la potencia de una señal útil 
 ![SNR](https://quicklatex.com/cache3/2f/ql_51d12e518023d4d41be035e9f8e68f2f_l3.png)
 
 ### Ruido gaussiano 
-El ruido gaussiano es un tipo de ruido que tiene una distribución de probabilidad normal (gaussiana), caracterizada por su media y desviación estándar[1]; debido a esto dependiendo de ciertop valor que sera mencionado despues, los valores de SNR cambian dependiendo de cuanta desviacion estandar se le coloque a la ecuacion(En este casi **0.5**), los resultados obtenidos fueron: 
+El ruido gaussiano es un tipo de ruido que tiene una distribución de probabilidad normal (gaussiana), caracterizada por su media y desviación estándar; debido a esto dependiendo de ciertop valor que sera mencionado despues, los valores de SNR cambian dependiendo de cuanta desviacion estandar se le coloque a la ecuacion(En este casi **0.5**), los resultados obtenidos fueron: 
 <br>
 <br>
 ![Gaussiano](https://drive.google.com/uc?export=view&id=1dRuoYXGvYfdgrtF0axQyYVFrbrICOPhz)
@@ -153,12 +153,3 @@ Goldberger, A., Amaral, L., Glass, L., Hausdorff, J., Ivanov, P. C., Mark, R., .
 est.fabiana.lopez@unimilitar.edu.co
 <br>
 est.tania.sandoval@unimilitar.edu.co
-   
-
-[1]: Smith, J., Doe, A., & Brown, B. (2020). *Título del Artículo*. Nombre de la Revista, 45(6), 123-134. [asdjksadh]([URL_DEL_ARTÍCULO](https://github.com/carolinacorredorb/impedance_tube))
-
-
-
-
-
-
