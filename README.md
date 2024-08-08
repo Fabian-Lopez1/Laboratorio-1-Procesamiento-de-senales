@@ -40,7 +40,9 @@ from scipy.stats import variation
 ### Media estadistica
 Como su nombre lo dicta es el valor promedio en el que se mantiene la señal, para la parte con formula se uso la siguiente formula y se implemento en el codigo de la siguiente manera:
 <br>
-$$media = \frac{\sum_{1}^{n}x_{i}}{n}$$
+$$
+media = \frac{\sum_{1}^{n}x_{i}}{n}
+$$
 
 ```python
 sumita = sum(valores)
