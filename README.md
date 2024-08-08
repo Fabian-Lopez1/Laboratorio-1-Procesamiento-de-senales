@@ -48,6 +48,15 @@ sumita = sum(valores)
 media_formula = sumita/tamaño
 print("La media por formula de la señal es:", media_formula)
 ```
+<br>
+Por comando se uso el siguiente codigo: 
 
+```python
+media = np.mean(valores)
+print("La media de la señal es:", media)
+```
 
+En ambos casos se obtuvo un valor de **0.00102188**
+
+### Desviacion estandar
 
