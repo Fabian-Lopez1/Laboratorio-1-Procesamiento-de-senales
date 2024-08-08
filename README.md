@@ -38,7 +38,7 @@ from scipy.stats import variation
 <br>
 
 ### Media estadistica
-Como su nombre lo dicta es el valor promedio en el que se mantiene la señal, para la parte con formula se uso la siguiente formula y se implemento en el codigo de la siguiente manera:
+Como su nombre lo dicta es el valor promedio en el que se mantiene la señal(en este caso en unidades de la escala de Voltios), para la parte con formula se uso la siguiente formula y se implemento en el codigo de la siguiente manera:
 <br>
 ![media](https://quicklatex.com/cache3/e9/ql_529238be61b9b711ea08fd55cd745ee9_l3.png)
 
@@ -47,7 +47,7 @@ media = np.mean(valores)
 print("La media de la señal es:", media)
 ```
 
-En ambos casos se obtuvo un valor de **0.00102** aprocimadamente
+En ambos casos se obtuvo un valor de **0.00102** aproximadamente
 
 ### Desviacion estandar
 
@@ -62,5 +62,20 @@ print("La desviacion estandar de la señal es:", desviacion_estandar)
 <br>
 
 En ambos casos se obtuvo un valor de **0.4449** aproximadamente
+
+### Coeficiente de variacion 
+El coeficiente de variacion indica que tanto cambia una variable en funcion de la otra, en este caso que tanto cambia la amplitud respecto al tiempo, para la parte con formula se uso la siguiente formula y se implemento en el codigo de la siguiente manera:
+<br>
+![Coeficiente de variacion](https://quicklatex.com/cache3/94/ql_1e34d0d4e0591516687ef56b0dd03694_l3.png)
+
+```python
+C_variacion = variation(valores)
+print("El coeficiente de variacion de la señal es:", C_variacion)
+```
+<br>
+En ambos casos se obtuvo un valor de **435.4675** aproximadamente
+
+
+
 
 
