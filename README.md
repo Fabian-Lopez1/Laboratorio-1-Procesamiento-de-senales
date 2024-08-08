@@ -125,6 +125,7 @@ plt.hist(valores, bins="numero deseado de bins sin comillas")
 count, bins = np.histogram(valores, bins="numero deseado de bins sin comillas", density=True)
 ```
 del usuario depende cuantos bins colocar en cada uno de estos, ya que dependera de la señal utilizada
+<br>
 6. Para la parte de los ruidos, el valor de SNR depende de la variacion estandar que se le quiera permitir a la señal del ruido, ya que esta se normaliza o estandariZa de forma automatica
    1. Para el ruido gaussiano (linea 162)
  ```python
