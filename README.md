@@ -96,6 +96,25 @@ El ruido tipo artefacto es un ruido no deseado en una señal que se origina por 
 <br>
 ![impulso](https://drive.google.com/uc?export=view&id=1CTO9oftJyyHk6YvR-k4NEci5NUXMdHsO)
 
+# Instrucciones para el usuario 
+
+1. importar las siguientes librerias luego de instalarlas previamente
+   
+```python
+import wfdb 
+import matplotlib.pyplot as plt
+import numpy as np
+import math
+from scipy.stats import variation
+```
+2. descargar los archivos .hea y . dat de una señal de la pagina web [Physionet](https://physionet.org/about/database/)
+3. cargar los datos descargados anteriormente de la siguiente forma (linea 21 de codigo)
+```python
+signal = wfdb.rdrecord('nombre_de_sus_archivos')
+```
+   
+
+
 
 
 
