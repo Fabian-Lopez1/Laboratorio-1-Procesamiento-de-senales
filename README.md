@@ -17,6 +17,7 @@ tamaño = signal.sig_len
 <br>
 Una vez obtenida la señal era momento de mostrarla para poder observar lo que se denomino "señal original", esto se hizo usando la libreria "matplotlib" obteniendo la siguiente señal: 
 <br>
+<br>
 
 ![Senal original](https://drive.google.com/uc?export=view&id=1Nq-gbisaOD_8Kpf-NBYKOK_pXGg7xiUb)
 
@@ -26,7 +27,7 @@ Una vez se confirmo que la señal se importo de manera correcta a python, se pro
 ### Media estadistica
 Como su nombre lo dicta es el valor promedio en el que se mantiene la señal(en este caso en unidades de la escala de Voltios), para la parte con formula se uso la siguiente formula y se implemento en el codigo de la siguiente manera:
 <br>
-
+<br>
 ![media](https://quicklatex.com/cache3/e9/ql_529238be61b9b711ea08fd55cd745ee9_l3.png)
 
 ```python
@@ -40,7 +41,7 @@ En ambos casos se obtuvo un valor de **0.00102** aproximadamente
 
 La desviacion estandar, indica la dispersion la dispersion o variacion del conjunto de datos que se tiene, para encontrarla se utiliza la siguiente formula y se implemento por codigo asi: 
 <br>
-
+<br>
 ![Desviacion estandar](https://quicklatex.com/cache3/c9/ql_35e276e65637c4608038eba6cea6e8c9_l3.png)
 
 ```python
@@ -53,6 +54,7 @@ En ambos casos se obtuvo un valor de **0.4449** aproximadamente
 
 ### Coeficiente de variacion 
 El coeficiente de variacion indica que tanto cambia una variable en funcion de la otra, en este caso que tanto cambia la amplitud respecto al tiempo, para la parte con formula se uso la siguiente formula y se implemento en el codigo de la siguiente manera:
+<br>
 <br>
 ![Coeficiente de variacion](https://quicklatex.com/cache3/94/ql_1e34d0d4e0591516687ef56b0dd03694_l3.png)
 
@@ -67,18 +69,26 @@ En ambos casos se obtuvo un valor de **435.4675** aproximadamente
 ### Histograma y Funcion de probabilidad
 El histograma y la funcion de probabilidad estan interconectados, por eso se decidio unir los resultados en una sola parte. Estos se realizaron por formula, sin embargo es mas simple para el usuario mostrar los resultados obtenidos, ya que en el codigo se encuentra indicado en que parte se hacen las modificaciones a los mismos: 
 <br>
+<br>
 ![Histograma](https://drive.google.com/uc?export=view&id=1gH-x2WzdD5oh5uOKuq1KVC9wJTtaKf6D) ![Funcion de probabilidad](https://drive.google.com/uc?export=view&id=1m2sgsltka0-iiEm1dLqA9y7J9f3RD_0r)
 
 ## Relacion señal ruido (SNR)
 La Relacion señal ruido  es la relación entre la potencia de una señal útil y la potencia del ruido de fondo. Se utiliza para medir la calidad de la señal; un SNR más alto indica una señal más clara y menos afectada por el ruido; se utiliza la siguiente formula:
 <br>
+<br>
 ![SNR](https://quicklatex.com/cache3/2f/ql_51d12e518023d4d41be035e9f8e68f2f_l3.png)
 
 ### Ruido gaussiano 
-El ruido gaussiano es un tipo de ruido que tiene una distribución de probabilidad normal (gaussiana), caracterizada por su media y desviación estándar; debido a esto dependiendo de ciertop valor que sera mencionado despues, los valores de SNR cambian dependiendo de cuanta desviacion estandar se le coloque a la ecuacion, los resultados obtenidos fueron: 
+El ruido gaussiano es un tipo de ruido que tiene una distribución de probabilidad normal (gaussiana), caracterizada por su media y desviación estándar; debido a esto dependiendo de ciertop valor que sera mencionado despues, los valores de SNR cambian dependiendo de cuanta desviacion estandar se le coloque a la ecuacion(En este casi **0.5**), los resultados obtenidos fueron: 
+<br>
 <br>
 ![Gaussiano](https://drive.google.com/uc?export=view&id=1dRuoYXGvYfdgrtF0axQyYVFrbrICOPhz)
 
+### Ruido tipo impulso
+El ruido tipo impulso es un tipo de ruido que se manifiesta como picos repentinos y breves en la señal, debido a eventos esporádicos o fallos en el sistema; para este caso se tuvo que implementar el nivel del ruido y la probabilidad de que ocurriera un impulos, ambos son valores que se pueden manipular para afectar no solo la señal sino tambien el nivel del SNR, en este caso con un nivel de ruido de **0.8** y una probabilidad de impulso del **0.05** se obtuvo la siguiente grafica: 
+<br>
+<br>
+![impulso](https://drive.google.com/uc?export=view&id=1zL0GFKqSwFlB2ru0pAaJDoY7_orEz9uj)
 
 
 
