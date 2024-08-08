@@ -5,7 +5,7 @@ El propósito del presente laboratorio es profundizar las tecnicas estadisticas 
 Para cumplir con todos los objetivos se utilizo el lenguaje de programacion Python, en el cual se realizo la importacion, muestra y tratamiento de los datos mencionados anteriormente(**para terceros se recomienda usar el software "Anaconda Navigator con su herramienta "Spider"**), al final de este repositorio se encontraran las instrucciones para poder usar el codigo de manera adecuada 
 
 ## Procesamiento de la señal
-## analisis estadistico
+## Analisis estadistico
 Una vez se decidio la señal que seria usada("a03"), se descargo de [Physionet](https://physionet.org/content/apnea-ecg/1.0.0/) teniendo en cuenta que se tienen que descargar 2 archivos que se llamen igual pero que tengan las estenciones .hea y .dat, una vez con estos archivos se hizo uso de la libreria llamada "Waveform Database" o por sus siglas wfdb para poder importar los datos de la señal a python y poder obtener sus valores y el longitud del arreglo, de la siguiente manera: 
 
 ```python
@@ -15,27 +15,14 @@ valores = signal.p_signal
 tamaño = signal.sig_len
 ```
 <br>
-Una vez obtenida la señal era momento de mostrarla para poder observar lo que se denomino "señal original", esto se hizo usando la libreria "matplotlib" de esta manera y obteniendo la siguiente señal: 
+Una vez obtenida la señal era momento de mostrarla para poder observar lo que se denomino "señal original", esto se hizo usando la libreria "matplotlib" obteniendo la siguiente señal: 
 
-```python
-import matplotlib.pyplot as plt
-plt.plot(valores,label='Señal de ECG-APNEA')
-plt.title('Señal de ECG-APNEA obtenida de physionet')
-plt.xlabel('Muestras (t en s)')
-plt.ylabel('Amplitud (mV)')
-plt.legend()
-```
 ![Senal original](https://drive.google.com/uc?export=view&id=1Nq-gbisaOD_8Kpf-NBYKOK_pXGg7xiUb)
 
 <br>
 
-Una vez se confirmo que la señal se importo de manera correcta a python, se procedio con la primera parte del laboratorio la cual se basa en el estudio estadistico de la señal, en el cual se realizan diferentes medidas estadisticas tanto por formula como por comando de librerias de python; para esta parte es crucial importar las siguientes librerias: 
+Una vez se confirmo que la señal se importo de manera correcta a python, se procedio con la primera parte del laboratorio la cual se basa en el estudio estadistico de la señal, en el cual se realizan diferentes medidas estadisticas tanto por formula como por comando de librerias de python; para esta parte es crucial importar las siguientes librerias: matplotlib, numpy, math y scipy
 
-```python
-import numpy as np
-import math
-from scipy.stats import variation
-```
 <br>
 
 ### Media estadistica
