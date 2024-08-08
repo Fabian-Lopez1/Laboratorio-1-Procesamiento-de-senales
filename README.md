@@ -17,6 +17,7 @@ tamaño = signal.sig_len
 <br>
 Una vez obtenida la señal era momento de mostrarla para poder observar lo que se denomino "señal original", esto se hizo usando la libreria "matplotlib" obteniendo la siguiente señal: 
 <br>
+
 ![Senal original](https://drive.google.com/uc?export=view&id=1Nq-gbisaOD_8Kpf-NBYKOK_pXGg7xiUb)
 
 Una vez se confirmo que la señal se importo de manera correcta a python, se procedio con la primera parte del laboratorio la cual se basa en el estudio estadistico de la señal, en el cual se realizan diferentes medidas estadisticas tanto por formula como por comando de librerias de python; para esta parte es crucial importar las siguientes librerias: matplotlib, numpy, math y scipy
@@ -25,6 +26,7 @@ Una vez se confirmo que la señal se importo de manera correcta a python, se pro
 ### Media estadistica
 Como su nombre lo dicta es el valor promedio en el que se mantiene la señal(en este caso en unidades de la escala de Voltios), para la parte con formula se uso la siguiente formula y se implemento en el codigo de la siguiente manera:
 <br>
+
 ![media](https://quicklatex.com/cache3/e9/ql_529238be61b9b711ea08fd55cd745ee9_l3.png)
 
 ```python
@@ -38,6 +40,7 @@ En ambos casos se obtuvo un valor de **0.00102** aproximadamente
 
 La desviacion estandar, indica la dispersion la dispersion o variacion del conjunto de datos que se tiene, para encontrarla se utiliza la siguiente formula y se implemento por codigo asi: 
 <br>
+
 ![Desviacion estandar](https://quicklatex.com/cache3/c9/ql_35e276e65637c4608038eba6cea6e8c9_l3.png)
 
 ```python
