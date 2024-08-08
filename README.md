@@ -127,6 +127,7 @@ count, bins = np.histogram(valores, bins="numero deseado de bins sin comillas", 
 6. Para la parte de los ruidos, el valor de SNR depende de la variacion estandar que se le quiera permitir a la señal del ruido, ya que esta se normaliza o estandariZa de forma automatica
 <br>
    a. Para el ruido gaussiano (linea 162)
+   
  ```python
 noise_level = np.std(valores)*"valor de desviacion estandar que se desea sin comillas"
 ```
