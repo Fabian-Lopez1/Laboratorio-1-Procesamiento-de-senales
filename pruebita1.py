@@ -28,14 +28,15 @@ tamaño = signal.sig_len #numero de muestras
 
 print(valores)
 
-plt.plot(valores)
+plt.plot(valores,label='Señal de ECG-APNEA')
 
 plt.title('Señal de ECG-APNEA obtenida de physionet')
 
-plt.xlabel('Muestras')
+plt.xlabel('Muestras (t en s)')
 
-plt.ylabel('Amplitud')
+plt.ylabel('Amplitud (mV)')
 
+plt.legend()
 # calculo de la media estadistica de la señal por medio de formula 
 
 sumita = sum(valores)
@@ -92,9 +93,9 @@ plt.bar(bin_centers, hist_values, width=bin_edges[1] - bin_edges[0], edgecolor='
 
 plt.title('Histograma por formula')
 
-plt.xlabel('Muestras')
+plt.xlabel('Muestras (t en s)')
 
-plt.ylabel('Amplitud')
+plt.ylabel('Amplitud (mV)')
 
 plt.show()
 
@@ -104,9 +105,9 @@ plt.hist(valores, bins=100)
 
 plt.title("Histograma por codigo")
 
-plt.xlabel('Muestras')
+plt.xlabel('Muestras (t en s)')
 
-plt.ylabel('Amplitud')
+plt.ylabel('Amplitud (mV)')
 
 plt.show()
 
@@ -120,13 +121,15 @@ pdf_values = hist_values / (sum(hist_values) * bin_width)
 
 plt.figure(figsize=(10, 6))
 
-plt.plot(bin_centers, pdf_values, marker='o', linestyle='-', color='b')
+plt.plot(bin_centers, pdf_values, marker='o', linestyle='-', color='b', label='funcion de probabilidad')
 
 plt.title('Función de Densidad de Probabilidad por formula')
 
-plt.xlabel('Muestras')
+plt.xlabel('Muestras (t en s)')
 
-plt.ylabel('Amplitud')
+plt.ylabel('Amplitud (mV)')
+
+plt.legend()
 
 plt.show()
 
@@ -136,13 +139,15 @@ count, bins = np.histogram(valores, bins=100, density=True)
 
 bin_centers = 0.5 * (bins[:-1] + bins[1:])
 
-plt.plot(bin_centers, count)
+plt.plot(bin_centers, count, label='funcion de probabilidad')
 
 plt.title('Función de probabilidad por codigo')
 
-plt.xlabel('Muestras')
+plt.xlabel('Muestras (t en s)')
 
-plt.ylabel('Amplitud')
+plt.ylabel('Amplitud (mV)')
+
+plt.legend()
 
 plt.show()
 
@@ -176,25 +181,29 @@ plt.figure(figsize=(12, 6))
 
 plt.subplot(2, 1, 1)
 
-plt.plot(valores, color='blue')
+plt.plot(valores, color='blue', label='señal original')
 
 plt.title('Señal Original')
 
-plt.xlabel('Muestras')
+plt.xlabel('Muestras (t en s)')
 
-plt.ylabel('Amplitud')
+plt.ylabel('Amplitud (mV)')
+
+plt.legend()
 
 plt.subplot(2, 1, 2)
 
-plt.plot(valores_contaminados, color='red')
+plt.plot(valores_contaminados, color='red', label='señal contaminada con ruido gaussiano')
 
 plt.title('Señal Contaminada con Ruido Gaussiano')
 
-plt.xlabel('Muestras')
+plt.xlabel('Muestras (t en s)')
 
-plt.ylabel('Amplitud')
+plt.ylabel('Amplitud (mV)')
 
 plt.tight_layout()
+
+plt.legend()
 
 plt.show()
 
@@ -205,6 +214,12 @@ plt.plot(valores, label='Señal Original', color='r')
 plt.plot(valores_contaminados, label='Señal Contaminada(Gaussiano)', alpha=0.7)
 
 plt.title('Comparación de la Señal Original y la Señal Contaminada(Gaussiano)')
+
+plt.xlabel('Muestras (t en s)')
+
+plt.ylabel('Amplitud (mV)')
+
+plt.legend()
 
 plt.show()
 
@@ -251,9 +266,11 @@ plt.plot(valores, label='Señal Original')
 
 plt.title('Señal Original')
 
-plt.xlabel('Muestras')
+plt.xlabel('Muestras (t en s)')
 
-plt.ylabel('Amplitud')
+plt.ylabel('Amplitud (mV)')
+
+plt.legend()
 
 plt.subplot(2, 1, 2)
 
@@ -261,11 +278,13 @@ plt.plot(noisy_signal, label='Señal con Ruido Impulsivo', color='r')
 
 plt.title('Señal con Ruido Impulsivo')
 
-plt.xlabel('Muestras')
+plt.xlabel('Muestras (t en s)')
 
-plt.ylabel('Amplitud')
+plt.ylabel('Amplitud (mV)')
 
 plt.tight_layout()
+
+plt.legend()
 
 plt.show()
 
@@ -276,6 +295,12 @@ plt.plot(valores, label='Señal Original', color='r')
 plt.plot(noisy_signal, label='Señal Contaminada(Impulso)', alpha=0.7)
 
 plt.title('Comparación de la Señal Original y la Señal Contaminada(Impulso)')
+
+plt.xlabel('Muestras (t en s)')
+
+plt.ylabel('Amplitud (mV)')
+
+plt.legend()
 
 plt.show()
 
@@ -303,9 +328,11 @@ plt.plot(valores, label='Señal Original')
 
 plt.title('Señal Original')
 
-plt.xlabel('Muestras')
+plt.xlabel('Muestras (t en s)')
 
-plt.ylabel('Amplitud')
+plt.ylabel('Amplitud (mV)')
+
+plt.legend()
 
 plt.subplot(2, 1, 2)
 
@@ -313,11 +340,13 @@ plt.plot(señal_contaminada, label='Señal con Ruido tipo artefacto', color='r')
 
 plt.title('Señal con Ruido Artefacto')
 
-plt.xlabel('Muestras')
+plt.xlabel('Muestras (t en s)')
 
-plt.ylabel('Amplitud')
+plt.ylabel('Amplitud (mV)')
 
 plt.tight_layout()
+
+plt.legend()
 
 plt.show()
 
@@ -328,6 +357,12 @@ plt.plot(valores, label='Señal Original', color='r')
 plt.plot(señal_contaminada, label='Señal Contaminada(Artefacto)', alpha=0.7)
 
 plt.title('Comparación de la Señal Original y la Señal Contaminada(Artefacto)')
+
+plt.xlabel('Muestras (t en s)')
+
+plt.ylabel('Amplitud (mV)')
+
+plt.legend()
 
 plt.show()
 
