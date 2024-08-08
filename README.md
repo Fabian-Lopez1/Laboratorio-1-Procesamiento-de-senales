@@ -90,7 +90,7 @@ La Relacion señal ruido  es la relación entre la potencia de una señal útil 
 ### Ruido gaussiano 
 El ruido gaussiano es un tipo de ruido que tiene una distribución de probabilidad normal (gaussiana), caracterizada por su media y desviación estándar; debido a esto dependiendo de ciertop valor que sera mencionado despues, los valores de SNR cambian dependiendo de cuanta desviacion estandar se le coloque a la ecuacion, los resultados obtenidos fueron: 
 <br>
-![Histograma](https://drive.google.com/uc?export=view&id=1u_d80iu7hoWgUX9MyelIKhjqLDqPwqK6) ![Funcion de probabilidad](https://drive.google.com/uc?export=view&id=1dRuoYXGvYfdgrtF0axQyYVFrbrICOPhz)
+![Gaussiano](https://drive.google.com/uc?export=view&id=1dRuoYXGvYfdgrtF0axQyYVFrbrICOPhz)
 
 
 
