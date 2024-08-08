@@ -24,5 +24,7 @@ plt.xlabel('Muestras (t en s)')
 plt.ylabel('Amplitud (mV)')
 plt.legend()
 ```
-![asdsa](https://drive.google.com/uc?export=view&id=1Nq-gbisaOD_8Kpf-NBYKOK_pXGg7xiUb)
-https://drive.google.com/file/d/1Nq-gbisaOD_8Kpf-NBYKOK_pXGg7xiUb/view?usp=sharing
+![Se{al original](https://drive.google.com/uc?export=view&id=1Nq-gbisaOD_8Kpf-NBYKOK_pXGg7xiUb)
+
+
+
