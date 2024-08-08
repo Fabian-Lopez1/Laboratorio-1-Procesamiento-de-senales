@@ -24,7 +24,27 @@ plt.xlabel('Muestras (t en s)')
 plt.ylabel('Amplitud (mV)')
 plt.legend()
 ```
-![Se{al original](https://drive.google.com/uc?export=view&id=1Nq-gbisaOD_8Kpf-NBYKOK_pXGg7xiUb)
+![Senal original](https://drive.google.com/uc?export=view&id=1Nq-gbisaOD_8Kpf-NBYKOK_pXGg7xiUb)
+
+<br>
+
+Una vez se confirmo que la señal se importo de manera correcta a python, se procedio con la primera parte del laboratorio la cual se basa en el estudio estadistico de la señal, en el cual se realizan diferentes medidas estadisticas tanto por formula como por comando de librerias de python; para esta parte es crucial importar las siguientes librerias: 
+
+```python
+import numpy as np
+import math
+from scipy.stats import variation
+```
+<br>
+
+### Media estadistica
+Como su nombre lo dicta es el valor promedio en el que se mantiene la señal, para la parte con formula se uso la siguiente formula: $media = \frac{\sum_{1}^{n}x_{i}}{n}$ y se implemento en el codigo de la siguiente manera: 
+
+```python
+sumita = sum(valores)
+media_formula = sumita/tamaño
+print("La media por formula de la señal es:", media_formula)
+```
 
 
 
