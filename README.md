@@ -73,6 +73,7 @@ C_variacion = variation(valores)
 print("El coeficiente de variacion de la señal es:", C_variacion)
 ```
 <br>
+
 En ambos casos se obtuvo un valor de **435.4675** aproximadamente
 
 
