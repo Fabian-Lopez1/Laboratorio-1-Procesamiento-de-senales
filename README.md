@@ -60,3 +60,7 @@ En ambos casos se obtuvo un valor de **0.00102188**
 
 ### Desviacion estandar
 
+La desviacion estandar, indica la dispersion la dispersion o variacion del conjunto de datos que se tiene, para encontrarla se utiliza la siguiente formula: 
+![Desviacion estandar](https://quicklatex.com/cache3/c9/ql_35e276e65637c4608038eba6cea6e8c9_l3.png)
+
+
