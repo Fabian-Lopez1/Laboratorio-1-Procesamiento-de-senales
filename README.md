@@ -90,6 +90,13 @@ El ruido tipo impulso es un tipo de ruido que se manifiesta como picos repentino
 <br>
 ![impulso](https://drive.google.com/uc?export=view&id=1zL0GFKqSwFlB2ru0pAaJDoY7_orEz9uj)
 
+### Ruido tipo artefacto 
+El ruido tipo artefacto es un ruido no deseado en una señal que se origina por defectos o interferencias en el sistema de medición o procesamiento, como fallos en el hardware o errores en la adquisición de datos; este tipo de ruido es aleatorio, por lo que se usa una funcion que genere una onda aleatoria, la cual tambien usa una desviacion estandar de **0.5**, obteniendo asi la siguiente grafica: 
+<br>
+<br>
+![impulso](https://drive.google.com/uc?export=view&id=1CTO9oftJyyHk6YvR-k4NEci5NUXMdHsO)
+
+
 
 
 
