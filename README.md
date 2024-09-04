@@ -149,7 +149,7 @@ ruido = np.random.normal(0, "valor de desviacion estandar que se desea sin comil
 ### Uso 
 Por favor, cite este artículo:
 <br>
-Goldberger, A., Amaral, L., Glass, L., Hausdorff, J., Ivanov, P. C., Mark, R., ... & Stanley, H. E. (2000). PhysioBank, PhysioToolkit, and PhysioNet: Components of a new research resource for complex physiologic signals. Circulation [Online]. 101 (23), pp. e215–e220
+Lopez L., Sandoval R. (2024). Github 'Laboratorio 1 Procesamiento de señales'[Online].
 ### Informacion de contacto
 est.fabiana.lopez@unimilitar.edu.co
 <br>
